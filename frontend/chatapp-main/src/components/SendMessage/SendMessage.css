@@ -1,0 +1,12 @@
+.send-message-container {
+    display: flex;
+    border: 0.25px solid var(--OnBackground);
+    background: fixed;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.search-form input[type="text"] {
+    font-size: 1.3em;
+     height: 500px;
+     border: none;
+ }

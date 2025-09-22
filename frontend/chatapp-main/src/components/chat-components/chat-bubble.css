@@ -1,0 +1,50 @@
+@import "../palette.css";
+
+.bubble {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: fit-content;
+  word-break: break-all;
+  padding: 20px;
+}
+
+.chat--bubble--receiver {
+  border-radius: 30px 15px 5px 50px;
+  background-color: var(--SecondaryContainer);
+  color: var(--OnSecondaryContainer);
+}
+
+.chat--bubble--sender {
+  border-radius: 5px 30px 15px 50px;
+  background-color: var(--Neutral95);
+  color: var(--OnSurfaceVariant);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.time-seen-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 180px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.seen {
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.user-name-text {
+  font-size: 14px;
+  font-weight: bold;
+}

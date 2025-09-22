@@ -1,0 +1,63 @@
+@import "palette.css";
+.general-input-div {
+  width: 400px;
+}
+.l-div {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.div-input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  outline: none;
+}
+.input-input {
+  margin-top: 10px;
+  text-align: left;
+  outline: none;
+  border: 0;
+  padding: 3px;
+  width: 280px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  letter-spacing: 0.02em;
+  color: var(--OnSurface);
+  border: 1px solid var(--OnSurface);
+  height: 36px;
+  padding: 0em 2em;
+  border-radius: 4px;
+}
+label {
+  height: 20px;
+  margin-left: 15px;
+  /* Heading3 */
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  margin-top: 18px;
+}
+/*Form styles*/
+.default--input {
+  font-size: 14px;
+  line-height: 2;
+  width: 280px;
+}
+.email-link-input {
+  font-size: 14px;
+  line-height: 2;
+  width: 595px;
+}
+.error-message {
+  color: var(--Error);
+  font-size: small;
+}

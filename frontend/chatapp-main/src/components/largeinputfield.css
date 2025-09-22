@@ -1,0 +1,55 @@
+@import "palette.css";
+
+.large-input-field {
+  width: 500px;
+}
+.large-l-div {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 86px;
+}
+.large-input-fields-textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  outline: none;
+}
+.large-input-fields-textarea {
+  margin-top: 10px;
+  text-align: left;
+  padding: 3px;
+  width: 600px;
+  height: 70px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  letter-spacing: 0.02em;
+  color: var(--OnSurface);
+  resize: none;
+  border: 1px solid var(--OnSurface);
+  padding: 0em 2em;
+  border-radius: 4px;
+}
+label {
+  height: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+
+  /* Heading3 */
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+/*Form styles*/
+.large--input--field--area {
+  font-size: 14px;
+  line-height: 2px;
+}

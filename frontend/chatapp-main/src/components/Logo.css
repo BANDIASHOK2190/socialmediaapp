@@ -1,0 +1,17 @@
+.logo-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.text-logo {
+    flex-direction: column;
+    align-self: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.book-image {
+    flex-direction: row;
+    justify-content: center;
+}

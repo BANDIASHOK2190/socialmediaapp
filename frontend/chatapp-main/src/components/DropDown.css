@@ -1,0 +1,68 @@
+.container{
+    width: 336px;
+}
+
+.input-container{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.arrow-container{
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    transform: translateY(-50%);
+    margin-top: -20;
+    cursor: pointer;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: translateY(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.input-clear{
+    position: absolute;
+    right: 30px;
+    top:67px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.dropdown{
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    background: white;
+    display:none;
+}
+
+.dropdown.visible{
+    display: block;
+}
+
+.options{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.options:hover {
+    background: linear-gradient(0deg, rgba(45, 106, 60, 0.08), rgba(45, 106, 60, 0.08)), #FCFCF8;
+}
+
+.options:active {
+    background: var(--SecondaryContainer);
+}

@@ -1,0 +1,71 @@
+@import "palette.css";
+
+.inbox--card{
+    border-radius: 16px;
+    display: flex;
+    width: 414px;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+
+    background:linear-gradient(var(--SurfaceVariant),var(--SurfaceVariant)) bottom no-repeat;
+    background-size:280px 2px;
+}
+
+.inbox--card:hover {
+    background: linear-gradient(0deg, rgba(45, 106, 60, 0.08), rgba(45, 106, 60, 0.08)), #FCFCF8;
+}
+
+.inbox--card:active {
+    background: var(--SecondaryContainer);
+}
+
+.inbox--card--content{
+    width: 325px;
+    padding-top: 8px;
+}
+
+.inbox--card--name--time{
+    height: inherit;
+    color: var(--OnSurface);
+    display: flex;
+}
+
+.inbox--card--name{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 76%;
+}
+
+.inbox--card--time{
+    margin-left:auto;
+    font-weight: 400;
+    text-align: right;
+    color: var(--Outline);
+}
+
+.inbox--card--message{
+    margin: 5px 0 4px 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.read{
+    font-weight: 400;
+}
+
+.reading{
+    background: var(--SecondaryContainer);
+}
+
+.unread{
+    font-weight: 600;
+}

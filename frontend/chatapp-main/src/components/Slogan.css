@@ -1,0 +1,11 @@
+.slogan-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.text-slogan {
+    flex-direction: column;
+    align-self: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

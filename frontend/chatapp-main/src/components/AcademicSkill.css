@@ -1,0 +1,15 @@
+@import "palette.css";
+
+.skill{
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content: left;
+    height: 20px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.skill--title{
+    margin-right: auto;
+}

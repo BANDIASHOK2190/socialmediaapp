@@ -1,0 +1,32 @@
+.user-info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    max-width: fit-content;
+}
+
+.user-sort-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    text-align: left;
+}
+
+p {
+    margin: 2px;
+}
+
+.user-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+

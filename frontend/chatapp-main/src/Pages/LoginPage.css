@@ -1,0 +1,84 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  top: 250px;
+  border: 0.5px solid var(--OnSurface);
+}
+
+.body {
+  color: var(--OnSurface);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 100px;
+  max-width: 1000px;
+  border: 1px solid var(--Secondary);
+  border-radius: 10px;
+  padding: 90px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 22px;
+}
+
+.card--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  flex: 0 0 40%;
+}
+
+.logo {
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.slogan {
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.clipart-and-card {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.clipart-3-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.button-login-container {
+  margin-top: 15px;
+}
+
+.go-to-register-button-container{
+  margin-top: 15px;
+}

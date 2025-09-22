@@ -1,0 +1,31 @@
+@import "../palette.css";
+.layout {
+    display: flex;
+    height: 600px;
+    width:100%;
+}
+
+.chat--bubble--box {
+    overflow-y: scroll;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-color: var(--Surface);
+    padding: 10px;
+}
+
+.chat-row-receiver {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.chat-row-sender {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
